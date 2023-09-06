@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3"
+  },
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "name": "forkify",
+  "version": "1.0.0",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "jake",
+  "license": "ISC",
+  "description": ""
+}
