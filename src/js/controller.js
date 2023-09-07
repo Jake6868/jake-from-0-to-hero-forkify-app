@@ -140,6 +140,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   newFeatures();
+  console.log('1234');
 };
 init();
 
